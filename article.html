@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- ============ Box Icon =========== -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ============ Font Awesome =========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
+    <script src="main.js" defer></script>
+    <title>Article Details - sSBC Marketing Agency</title>
+    <style>
+        /* Article Page Specific Styles */
+        .article-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.9);
+            min-height: 100vh;
+        }
+        
+        .article-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #ff652f;
+        }
+        
+        .article-header h1 {
+            color: #FDE767;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .article-meta {
+            color: #aaa;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .article-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        .article-content {
+            color: #fff;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .article-content h2 {
+            color: #ff652f;
+            margin: 30px 0 15px;
+        }
+        
+        .article-content h3 {
+            color: #FDE767;
+            margin: 25px 0 10px;
+        }
+        
+        .article-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .article-content ul, .article-content ol {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        
+        .article-content li {
+            margin-bottom: 10px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #ff652f;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-top: 40px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: #FDE767;
+            color: #000;
+            transform: translateY(-3px);
+        }
+        
+        .article-footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            text-align: center;
+        }
+        
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .share-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .facebook { background: #3b5998; }
+        .twitter { background: #1da1f2; }
+        .linkedin { background: #0077b5; }
+        .whatsapp { background: #25D366; }
+        
+        .share-btn:hover {
+            transform: translateY(-3px) scale(1.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .article-header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .article-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ========================== Navbar Part =========================== -->
+    <nav-container></nav-container>
+    
+    <!-- ========================== Article Content =========================== -->
+    <div class="article-container">
+        <div class="article-header">
+            <h1 id="article-title">Article Details</h1>
+            <div class="article-meta">
+                <span><i class="far fa-calendar"></i> <span id="article-date">Today</span></span>
+                <span><i class="far fa-clock"></i> 5 min read</span>
+                <span><i class="far fa-folder"></i> <span id="article-category">Marketing</span></span>
+            </div>
+        </div>
+        
+        <img id="article-image" src="images/web.jpg" alt="Article Image" class="article-image">
+        
+        <div class="article-content" id="article-body">
+            <!-- Content will be loaded dynamically -->
+            <p>Loading article content...</p>
+        </div>
+        
+        <div class="article-footer">
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            
+            <div class="share-buttons">
+                <p style="color: #aaa; margin-bottom: 10px;">Share this article:</p>
+                <a href="#" class="share-btn facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="share-btn twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="share-btn linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="share-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Article data
+        const articlesData = {
+            // Service Articles
+            'service-1': {
+                title: 'Complete Web Development Guide',
+                category: 'Web Development',
+                image: 'images/web.jpg',
+                content: `
+                    <h2>Why Web Development is Crucial in Digital Era</h2>
+                    <p>In today's digital landscape, having a professional website is no longer optional—it's essential. A well-designed website serves as your digital storefront, open 24/7 to potential customers worldwide.</p>
+                    
+                    <h3>Our Web Development Services Include:</h3>
+                    <ul>
+                        <li><strong>Responsive Website Design:</strong> Websites that look perfect on all devices</li>
+                        <li><strong>E-commerce Solutions:</strong> Online stores with secure payment gateways</li>
+                        <li><strong>Custom Web Applications:</strong> Tailored solutions for specific business needs</li>
+                        <li><strong>CMS Development:</strong> Easy-to-manage content management systems</li>
+                        <li><strong>Website Maintenance:</strong> Regular updates and security monitoring</li>
+                    </ul>
+                    
+                    <h3>Technologies We Use:</h3>
+                    <p>We work with modern technologies including HTML5, CSS3, JavaScript, React, Node.js, WordPress, and more. Our team stays updated with the latest trends to deliver cutting-edge solutions.</p>
+                    
+                    <h3>Our Process:</h3>
+                    <ol>
+                        <li><strong>Discovery Phase:</strong> Understanding your business and goals</li>
+                        <li><strong>Planning & Design:</strong> Creating wireframes and mockups</li>
+                        <li><strong>Development:</strong> Building the website with clean code</li>
+                        <li><strong>Testing:</strong> Ensuring everything works perfectly</li>
+                        <li><strong>Launch & Support:</strong> Going live and providing ongoing support</li>
+                    </ol>
+                    
+                    <h2>Benefits of Professional Web Development</h2>
+                    <p>A professional website helps establish credibility, generates leads, increases sales, and provides a platform to showcase your products or services. With our expertise, we can create a website that not only looks great but also performs exceptionally well in search engines.</p>
+                    
+                    <p><strong>Ready to build your online presence?</strong> Contact us today for a free consultation and quote. Let's discuss how we can help your business thrive online.</p>
+                `
+            },
+            
+            'service-2': {
+                title: 'SEO Mastery: Rank Higher on Google',
+                category: 'SEO',
+                image: 'images/seo.jpg',
+                content: `
+                    <h2>The Power of Search Engine Optimization</h2>
+                    <p>SEO is the practice of optimizing your website to rank higher in search engine results pages (SERPs). With 93% of online experiences beginning with a search engine, SEO is crucial for online visibility.</p>
+                    
+                    <h3>Our SEO Services:</h3>
+                    <ul>
+                        <li><strong>Keyword Research:</strong> Identifying valuable search terms</li>
+                        <li><strong>On-Page SEO:</strong> Optimizing individual web pages</li>
+                        <li><strong>Technical SEO:</strong> Improving website infrastructure</li>
+                        <li><strong>Content Optimization:</strong> Creating search-friendly content</li>
+                        <li><strong>Link Building:</strong> Earning quality backlinks</li>
+                        <li><strong>Local SEO:</strong> Dominating local search results</li>
+                    </ul>
+                    
+                    <h3>Why SEO Matters:</h3>
+                    <p>SEO drives organic traffic, builds credibility, provides better ROI than paid advertising, and offers long-term results. Unlike PPC, which stops working when you stop paying, SEO continues to deliver results over time.</p>
+                    
+                    <h3>Our SEO Strategy:</h3>
+                    <ol>
+                        <li><strong>Audit & Analysis:</strong> Comprehensive website evaluation</li>
+                        <li><strong>Strategy Development:</strong> Custom SEO plan creation</li>
+                        <li><strong>Implementation:</strong> Executing optimization techniques</li>
+                        <li><strong>Monitoring:</strong> Tracking performance metrics</li>
+                        <li><strong>Reporting:</strong> Regular progress updates</li>
+                    </ol>
+                    
+                    <h2>SEO Success Metrics</h2>
+                    <p>We track various metrics including organic traffic, keyword rankings, conversion rates, bounce rates, and domain authority. Our transparent reporting keeps you informed about your SEO progress.</p>
+                `
+            },
+            
+            'service-3': {
+                title: 'Digital Marketing Revolution',
+                category: 'Digital Marketing',
+                image: 'images/dm.png',
+                content: `
+                    <h2>Transforming Businesses with Digital Marketing</h2>
+                    <p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels to connect with customers and build their brand.</p>
+                    
+                    <h3>Our Digital Marketing Services:</h3>
+                    <ul>
+                        <li><strong>Social Media Marketing:</strong> Engaging audiences on social platforms</li>
+                        <li><strong>Email Marketing:</strong> Nurturing leads through email campaigns</li>
+                        <li><strong>PPC Advertising:</strong> Targeted paid advertising campaigns</li>
+                        <li><strong>Content Marketing:</strong> Creating valuable content to attract customers</li>
+                        <li><strong>Influencer Marketing:</strong> Leveraging influential people in your industry</li>
+                        <li><strong>Video Marketing:</strong> Engaging audiences through video content</li>
+                    </ul>
+                    
+                    <h3>The Digital Marketing Advantage:</h3>
+                    <p>Digital marketing offers precise targeting, measurable results, real-time adjustments, cost-effectiveness, and global reach. It allows businesses of all sizes to compete in the digital marketplace.</p>
+                    
+                    <h3>Our Approach:</h3>
+                    <p>We develop integrated digital marketing strategies that align with your business goals. Our data-driven approach ensures maximum ROI from your marketing budget.</p>
+                    
+                    <h2>Measuring Digital Marketing Success</h2>
+                    <p>We use advanced analytics tools to track conversions, engagement rates, ROI, customer acquisition cost, and lifetime value. Our comprehensive reporting provides insights for continuous optimization.</p>
+                `
+            },
+            
+            // Blog Articles
+            'blog-1': {
+                title: 'Website vs SEO: The Perfect Partnership',
+                category: 'Blog',
+                image: 'images/seo-imp.png',
+                content: `
+                    <h2>The Symbiotic Relationship Between Websites and SEO</h2>
+                    <p>A website alone is not enough; having an SEO-friendly website is crucial for the online presence of a business. The website and SEO are closely connected, influencing each other.</p>
+                    
+                    <h3>Building Websites with SEO in Mind</h3>
+                    <p>From the initial planning stages, we consider SEO best practices. This includes clean URL structures, proper heading hierarchy, image optimization, mobile responsiveness, and fast loading times.</p>
+                    
+                    <h3>Key SEO-Friendly Website Elements:</h3>
+                    <ul>
+                        <li><strong>Mobile-First Design:</strong> With mobile-first indexing, responsive design is essential</li>
+                        <li><strong>Fast Loading Speed:</strong> Speed is a ranking factor and improves user experience</li>
+                        <li><strong>Secure Connection:</strong> HTTPS is now a standard ranking signal</li>
+                        <li><strong>Structured Data:</strong> Helps search engines understand your content</li>
+                        <li><strong>Quality Content:</strong> Fresh, relevant, and valuable content</li>
+                    </ul>
+                    
+                    <h3>The Cost of Ignoring SEO</h3>
+                    <p>Without SEO, your website is like a beautiful store in a deserted alley. No matter how great your products or services are, if customers can't find you, you won't get business. SEO ensures your website is visible to those searching for what you offer.</p>
+                    
+                    <h2>Future-Proofing Your Online Presence</h2>
+                    <p>Search engines constantly update their algorithms. We build websites that are adaptable to these changes, ensuring long-term visibility and success in search results.</p>
+                `
+            },
+            
+            'blog-2': {
+                title: 'Digital vs Traditional Marketing: Which Wins?',
+                category: 'Blog',
+                image: 'images/m-dm1.jpg',
+                content: `
+                    <h2>The Marketing Evolution: From Traditional to Digital</h2>
+                    <p>Traditional marketing methods can be very expensive with limited targeting capabilities. Digital marketing offers precision, measurability, and cost-effectiveness that traditional methods can't match.</p>
+                    
+                    <h3>Comparing Both Approaches:</h3>
+                    <table style="width:100%; border-collapse:collapse; margin:20px 0;">
+                        <tr style="background:#ff652f; color:white;">
+                            <th style="padding:10px; text-align:left;">Aspect</th>
+                            <th style="padding:10px; text-align:left;">Traditional Marketing</th>
+                            <th style="padding:10px; text-align:left;">Digital Marketing</th>
+                        </tr>
+                        <tr style="background:#222;">
+                            <td style="padding:10px; border:1px solid #444;">Cost</td>
+                            <td style="padding:10px; border:1px solid #444;">High</td>
+                            <td style="padding:10px; border:1px solid #444;">Cost-effective</td>
+                        </tr>
+                        <tr style="background:#333;">
+                            <td style="padding:10px; border:1px solid #444;">Targeting</td>
+                            <td style="padding:10px; border:1px solid #444;">Broad</td>
+                            <td style="padding:10px; border:1px solid #444;">Precise</td>
+                        </tr>
+                        <tr style="background:#222;">
+                            <td style="padding:10px; border:1px solid #444;">Measurability</td>
+                            <td style="padding:10px; border:1px solid #444;">Limited</td>
+                            <td style="padding:10px; border:1px solid #444;">Detailed</td>
+                        </tr>
+                        <tr style="background:#333;">
+                            <td style="padding:10px; border:1px solid #444;">ROI Tracking</td>
+                            <td style="padding:10px; border:1px solid #444;">Difficult</td>
+                            <td style="padding:10px; border:1px solid #444;">Easy</td>
+                        </tr>
+                    </table>
+                    
+                    <h3>The Hybrid Approach</h3>
+                    <p>While digital marketing offers numerous advantages, traditional marketing still has its place for certain demographics and industries. The most effective strategy often combines both approaches based on your target audience and goals.</p>
+                    
+                    <h2>Making the Right Choice for Your Business</h2>
+                    <p>We help businesses analyze their target market, budget, and goals to create the optimal marketing mix. Our data-driven approach ensures you get the best results from your marketing investment.</p>
+                `
+            }
+        };
+
+        // Load article based on URL parameters
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const type = urlParams.get('type');
+            const id = urlParams.get('id');
+            
+            const articleKey = `${type}-${id}`;
+            const article = articlesData[articleKey];
+            
+            if (article) {
+                document.getElementById('article-title').textContent = article.title;
+                document.getElementById('article-category').textContent = article.category;
+                document.getElementById('article-image').src = article.image;
+                document.getElementById('article-image').alt = article.title;
+                document.getElementById('article-body').innerHTML = article.content;
+                
+                // Update share buttons
+                const currentUrl = encodeURIComponent(window.location.href);
+                const title = encodeURIComponent(article.title);
+                
+                document.querySelector('.facebook').href = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
+                document.querySelector('.twitter').href = `https://twitter.com/intent/tweet?url=${currentUrl}&text=${title}`;
+                document.querySelector('.linkedin').href = `https://www.linkedin.com/shareArticle?mini=true&url=${currentUrl}&title=${title}`;
+                document.querySelector('.whatsapp').href = `https://wa.me/?text=${title}%20${currentUrl}`;
+                
+                // Update page title
+                document.title = `${article.title} - sSBC Marketing Agency`;
+            } else {
+                document.getElementById('article-title').textContent = 'Article Not Found';
+                document.getElementById('article-body').innerHTML = `
+                    <p>The article you're looking for doesn't exist or has been moved.</p>
+                    <p>Please check the URL or return to our <a href="index.html" style="color:#ff652f;">homepage</a>.</p>
+                `;
+            }
+            
+            // Set current date
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('article-date').textContent = now.toLocaleDateString('en-US', options);
+        });
+    </script>
+</body>
+</html>
