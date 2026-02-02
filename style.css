@@ -927,7 +927,8 @@ text-align: center;
   line-height: 1.5;
 }
 .blog-col button{
-  margin-top: 20px;
+  margin-top: 15px;
+  /* margin-bottom: 50px; */
   padding: 7px 20px;
   background: #0bf407;
   border-radius: 30px;
