@@ -169,6 +169,7 @@ const translations = {
         'article_not_found_msg': 'The article you’re looking for doesn’t exist or has been moved.',
         'back_to_home': 'Back to Home',
         'share_this': 'Share this article:',
+        'find_us': 'Find Us',   // <--- add this line (don't forget the comma before it)
     },
 
     bn: {
@@ -340,6 +341,7 @@ const translations = {
         'article_not_found_msg': 'আপনি যে নিবন্ধটি খুঁজছেন তা বিদ্যমান নেই বা সরানো হয়েছে।',
         'back_to_home': 'হোমপেজে ফিরে যান',
         'share_this': 'এই নিবন্ধটি শেয়ার করুন:',
+        'find_us': 'আমাদের খুঁজুন',   // <--- add this line
     }
 };
 
