@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
+    <script src="main.js" defer></script>
+    <title>Portfolios - sSBC Marketing Agency</title>
+    <style>
+        .portfolio-page {
+            padding: 60px 20px;
+            background: #000;
+            color: white;
+        }
+        .portfolio-page h1 {
+            color: #FDE767;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .demo-showcase, .stories-showcase {
+            max-width: 1200px;
+            margin: 0 auto 60px;
+        }
+        .demo-grid, .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .demo-item, .story-item {
+            background: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .demo-item:hover, .story-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(255,101,47,0.3);
+        }
+        .demo-item img, .story-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .demo-item h3, .story-item h3 {
+            color: #ff652f;
+            margin: 15px 0;
+        }
+        .demo-item p, .story-item p {
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+        .demo-item a {
+            color: #0bf407;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav-container></nav-container>
+    
+    <div class="portfolio-page">
+        <h1 data-i18n="portfolios">Our Portfolio</h1>
+        
+        <div class="demo-showcase">
+            <h2 style="color:#e4f30e; text-align:center;" data-i18n="demo1_title">Demo Websites</h2>
+            <div class="demo-grid">
+                <div class="demo-item" id="demo1">
+                    <img src="images/tem1.png" alt="Demo 1">
+                    <h3 data-i18n="demo1_title">Demo Website - 01</h3>
+                    <p data-i18n="demo1_desc">Suitable for portfolio or personal brand</p>
+                    <a href="#" data-i18n="view_demo">View Demo</a>
+                </div>
+                <div class="demo-item" id="demo2">
+                    <img src="images/tem2.jpg" alt="Demo 2">
+                    <h3 data-i18n="demo2_title">Demo Website - 02</h3>
+                    <p data-i18n="demo2_desc">Suitable for portfolio or personal brand</p>
+                    <a href="#" data-i18n="view_demo">View Demo</a>
+                </div>
+                <div class="demo-item" id="demo3">
+                    <img src="images/tem3.jpg" alt="Demo 3">
+                    <h3 data-i18n="demo3_title">Demo Website - 03</h3>
+                    <p data-i18n="demo3_desc">Suitable for portfolio or personal brand</p>
+                    <a href="#" data-i18n="view_demo">View Demo</a>
+                </div>
+                <div class="demo-item" id="demo4">
+                    <img src="images/tem4.jpg" alt="Demo 4">
+                    <h3 data-i18n="demo4_title">Demo Website - 04</h3>
+                    <p data-i18n="demo4_desc">Suitable for e-commerce or small business</p>
+                    <a href="#" data-i18n="view_demo">View Demo</a>
+                </div>
+                <div class="demo-item" id="demo5">
+                    <img src="images/tem5.jpg" alt="Demo 5">
+                    <h3 data-i18n="demo5_title">Demo Website - 05</h3>
+                    <p data-i18n="demo5_desc">Suitable for e-commerce or small business</p>
+                    <a href="#" data-i18n="view_demo">View Demo</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stories-showcase">
+            <h2 style="color:#e4f30e; text-align:center;" data-i18n="story1_title">Success Stories</h2>
+            <div class="stories-grid">
+                <div class="story-item" id="story1">
+                    <img src="images/story1.png" alt="Story 1">
+                    <h3 data-i18n="story1_title">E-Commerce Boost</h3>
+                    <p><strong>Client:</strong> <span data-i18n="story1_client">DPEX</span> | <span data-i18n="story1_results">30% increase in conversions</span></p>
+                </div>
+                <div class="story-item" id="story2">
+                    <img src="images/story2.png" alt="Story 2">
+                    <h3 data-i18n="story2_title">B2B Lead Generation</h3>
+                    <p><strong>Client:</strong> <span data-i18n="story2_client">ARTISAN</span> | <span data-i18n="story2_results">Tripled monthly leads</span></p>
+                </div>
+                <div class="story-item" id="story3">
+                    <img src="images/story3.png" alt="Story 3">
+                    <h3 data-i18n="story3_title">Local Business Visibility</h3>
+                    <p><strong>Client:</strong> <span data-i18n="story3_client">Food Club</span> | <span data-i18n="story3_results">50% more reservations</span></p>
+                </div>
+                <div class="story-item" id="story4">
+                    <img src="images/story4.png" alt="Story 4">
+                    <h3 data-i18n="story4_title">Brand Revitalization</h3>
+                    <p><strong>Client:</strong> <span data-i18n="story4_client">Hamim Fashion</span> | <span data-i18n="story4_results">40% brand awareness</span></p>
+                </div>
+                <div class="story-item" id="story5">
+                    <img src="images/story5.png" alt="Story 5">
+                    <h3 data-i18n="story5_title">Nonprofit Fundraising</h3>
+                    <p><strong>Client:</strong> <span data-i18n="story5_client">Walk for Life</span> | <span data-i18n="story5_results">Doubled donations</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer (same as index) -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 data-i18n="footer_about_title">About sSBC</h3>
+                    <p class="footer-about" data-i18n="footer_about_text">We are a premier digital marketing agency specializing in creating impactful online presence for businesses. Our team of experts delivers results-driven solutions.</p>
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="sSBC Logo">
+                        <span data-i18n="footer_about_title">sSBC Marketing Agency</span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html" data-i18n="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html" data-i18n="services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="portfolios.html" data-i18n="portfolios"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="blogs.html" data-i18n="blogs"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="contact.html" data-i18n="contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_our_services">Our Services</h3>
+                    <ul class="footer-services">
+                        <li><a href="services.html#web" data-i18n="service_1_title"><i class="fas fa-code"></i> Web Development</a></li>
+                        <li><a href="services.html#seo" data-i18n="service_2_title"><i class="fas fa-search"></i> SEO Optimization</a></li>
+                        <li><a href="services.html#dm" data-i18n="service_3_title"><i class="fas fa-bullhorn"></i> Digital Marketing</a></li>
+                        <li><a href="services.html#content" data-i18n="service_4_title"><i class="fas fa-pen-fancy"></i> Content Writing</a></li>
+                        <li><a href="#"><i class="fas fa-shopping-cart"></i> E-commerce Solutions</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Social Media Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_newsletter_title">Newsletter</h3>
+                    <p style="color:#ccc; margin-bottom:15px;" data-i18n="footer_newsletter_text">Get latest updates & offers</p>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Your email address" required data-i18n="your_email">
+                        <button type="submit" data-i18n="footer_subscribe">Subscribe</button>
+                        <div class="newsletter-success" id="newsletter-success"></div>
+                    </form>
+                    <div style="margin-top:30px;">
+                        <h3 data-i18n="footer_contact_title">Contact Us</h3>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer_address">sSBC Point, Samsadipur, Katakhali, Rajshahi, Bangladesh.</span></li>
+                            <li><i class="fas fa-phone"></i> <span data-i18n="footer_phone">+880 1719 550 700</span></li>
+                            <li><i class="fas fa-envelope"></i> <span data-i18n="footer_email">info@ssbc.com</span></li>
+                            <li><i class="fas fa-clock"></i> <span data-i18n="footer_hours">Sun-Thu: 9:00 AM - 6:00 PM</span></li>
+                        </ul>
+                        <div class="social-links">
+                            <h4 data-i18n="footer_follow">Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/zohatec"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com/zohapixel"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/zohatec"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.instagram.com/zohatec"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="footer_copyright">&copy; 2026 sSBC Marketing Agency. All Rights Reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#" data-i18n="footer_privacy">Privacy Policy</a>
+                    <a href="#" data-i18n="footer_terms">Terms & Conditions</a>
+                    <a href="#" data-i18n="footer_cookie">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="lang.js" defer></script>
+    <script src="contact.js" defer></script>
+    <scroll-to-top></scroll-to-top>
+</body>
+</html>

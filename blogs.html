@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
+    <script src="main.js" defer></script>
+    <title>Blogs - sSBC Marketing Agency</title>
+    <style>
+        .blogs-page {
+            padding: 60px 20px;
+            background: #000;
+            color: white;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .blogs-page h1 {
+            color: #FDE767;
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2.5rem;
+        }
+        .blog-post {
+            background: #1e1e1e;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            align-items: center;
+        }
+        .blog-post img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .blog-post h2 {
+            color: #ff652f;
+            margin-bottom: 15px;
+        }
+        .blog-post p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+        .blog-post a {
+            background: #0bf407;
+            color: black;
+            padding: 8px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .blog-post a:hover {
+            background: #fff;
+            transform: scale(1.05);
+        }
+        @media (max-width:768px) {
+            .blog-post {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav-container></nav-container>
+    
+    <div class="blogs-page">
+        <h1 data-i18n="blogs">Latest Blog Posts</h1>
+        
+        <div class="blog-post">
+            <img src="images/seo-imp.png" alt="Website vs SEO">
+            <div>
+                <h2 data-i18n="blog_1_title">Website vs SEO: The Perfect Partnership</h2>
+                <p data-i18n="blog_1_desc">A website alone is not enough; having an SEO-friendly website is crucial for online presence. Learn how to combine both for maximum impact.</p>
+                <a href="article.html?type=blog&id=1" data-i18n="read_more">Read More</a>
+            </div>
+        </div>
+        
+        <div class="blog-post">
+            <img src="images/m-dm1.jpg" alt="Digital vs Traditional Marketing">
+            <div>
+                <h2 data-i18n="blog_2_title">Digital vs Traditional Marketing: Which Wins?</h2>
+                <p data-i18n="blog_2_desc">Traditional marketing is expensive and hard to measure. Digital marketing offers precise targeting and real-time analytics. Find out why digital is the future.</p>
+                <a href="article.html?type=blog&id=2" data-i18n="read_more">Read More</a>
+            </div>
+        </div>
+        
+        <div class="blog-post">
+            <img src="images/dm-method1.png" alt="Digital Marketing Strategy">
+            <div>
+                <h2 data-i18n="blog_3_title">Digital Marketing Strategy: A Complete Guide</h2>
+                <p data-i18n="blog_3_desc">From goal setting to channel selection and analytics, this guide covers everything you need to build a winning digital marketing strategy.</p>
+                <a href="article.html?type=blog&id=3" data-i18n="read_more">Read More</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer (same as index) -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 data-i18n="footer_about_title">About sSBC</h3>
+                    <p class="footer-about" data-i18n="footer_about_text">We are a premier digital marketing agency specializing in creating impactful online presence for businesses. Our team of experts delivers results-driven solutions.</p>
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="sSBC Logo">
+                        <span data-i18n="footer_about_title">sSBC Marketing Agency</span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html" data-i18n="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html" data-i18n="services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="portfolios.html" data-i18n="portfolios"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="blogs.html" data-i18n="blogs"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="contact.html" data-i18n="contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_our_services">Our Services</h3>
+                    <ul class="footer-services">
+                        <li><a href="services.html#web" data-i18n="service_1_title"><i class="fas fa-code"></i> Web Development</a></li>
+                        <li><a href="services.html#seo" data-i18n="service_2_title"><i class="fas fa-search"></i> SEO Optimization</a></li>
+                        <li><a href="services.html#dm" data-i18n="service_3_title"><i class="fas fa-bullhorn"></i> Digital Marketing</a></li>
+                        <li><a href="services.html#content" data-i18n="service_4_title"><i class="fas fa-pen-fancy"></i> Content Writing</a></li>
+                        <li><a href="#"><i class="fas fa-shopping-cart"></i> E-commerce Solutions</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Social Media Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_newsletter_title">Newsletter</h3>
+                    <p style="color:#ccc; margin-bottom:15px;" data-i18n="footer_newsletter_text">Get latest updates & offers</p>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Your email address" required data-i18n="your_email">
+                        <button type="submit" data-i18n="footer_subscribe">Subscribe</button>
+                        <div class="newsletter-success" id="newsletter-success"></div>
+                    </form>
+                    <div style="margin-top:30px;">
+                        <h3 data-i18n="footer_contact_title">Contact Us</h3>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer_address">sSBC Point, Samsadipur, Katakhali, Rajshahi, Bangladesh.</span></li>
+                            <li><i class="fas fa-phone"></i> <span data-i18n="footer_phone">+880 1719 550 700</span></li>
+                            <li><i class="fas fa-envelope"></i> <span data-i18n="footer_email">info@ssbc.com</span></li>
+                            <li><i class="fas fa-clock"></i> <span data-i18n="footer_hours">Sun-Thu: 9:00 AM - 6:00 PM</span></li>
+                        </ul>
+                        <div class="social-links">
+                            <h4 data-i18n="footer_follow">Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/zohatec"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com/zohapixel"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/zohatec"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.instagram.com/zohatec"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="footer_copyright">&copy; 2026 sSBC Marketing Agency. All Rights Reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#" data-i18n="footer_privacy">Privacy Policy</a>
+                    <a href="#" data-i18n="footer_terms">Terms & Conditions</a>
+                    <a href="#" data-i18n="footer_cookie">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="lang.js" defer></script>
+    <script src="contact.js" defer></script>
+    <scroll-to-top></scroll-to-top>
+</body>
+</html>

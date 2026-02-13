@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
+    <script src="main.js" defer></script>
+    <title>Contact Us - sSBC Marketing Agency</title>
+</head>
+<body>
+    <nav-container></nav-container>
+    
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2 data-i18n="contact">Get In Touch</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name" data-i18n="your_name">Full Name</label>
+                    <input type="text" id="name" name="name" required data-i18n="your_name">
+                    <div class="error-message" id="nameError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="your_email">Email Address</label>
+                    <input type="email" id="email" name="email" required data-i18n="your_email">
+                    <div class="error-message" id="emailError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="your_message">Message</label>
+                    <textarea id="message" name="message" rows="5" required data-i18n="your_message"></textarea>
+                    <div class="error-message" id="messageError"></div>
+                </div>
+                <button type="submit" class="contact-btn" data-i18n="send_message">Send Message</button>
+                <div class="success-message" id="formSuccess" data-i18n="contact_success">
+                    Thank you! Your message has been sent.
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer (same as index) -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 data-i18n="footer_about_title">About sSBC</h3>
+                    <p class="footer-about" data-i18n="footer_about_text">We are a premier digital marketing agency specializing in creating impactful online presence for businesses. Our team of experts delivers results-driven solutions.</p>
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="sSBC Logo">
+                        <span data-i18n="footer_about_title">sSBC Marketing Agency</span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html" data-i18n="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html" data-i18n="services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="portfolios.html" data-i18n="portfolios"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="blogs.html" data-i18n="blogs"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="contact.html" data-i18n="contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_our_services">Our Services</h3>
+                    <ul class="footer-services">
+                        <li><a href="services.html#web" data-i18n="service_1_title"><i class="fas fa-code"></i> Web Development</a></li>
+                        <li><a href="services.html#seo" data-i18n="service_2_title"><i class="fas fa-search"></i> SEO Optimization</a></li>
+                        <li><a href="services.html#dm" data-i18n="service_3_title"><i class="fas fa-bullhorn"></i> Digital Marketing</a></li>
+                        <li><a href="services.html#content" data-i18n="service_4_title"><i class="fas fa-pen-fancy"></i> Content Writing</a></li>
+                        <li><a href="#"><i class="fas fa-shopping-cart"></i> E-commerce Solutions</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Social Media Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-i18n="footer_newsletter_title">Newsletter</h3>
+                    <p style="color:#ccc; margin-bottom:15px;" data-i18n="footer_newsletter_text">Get latest updates & offers</p>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Your email address" required data-i18n="your_email">
+                        <button type="submit" data-i18n="footer_subscribe">Subscribe</button>
+                        <div class="newsletter-success" id="newsletter-success"></div>
+                    </form>
+                    <div style="margin-top:30px;">
+                        <h3 data-i18n="footer_contact_title">Contact Us</h3>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer_address">sSBC Point, Samsadipur, Katakhali, Rajshahi, Bangladesh.</span></li>
+                            <li><i class="fas fa-phone"></i> <span data-i18n="footer_phone">+880 1719 550 700</span></li>
+                            <li><i class="fas fa-envelope"></i> <span data-i18n="footer_email">info@ssbc.com</span></li>
+                            <li><i class="fas fa-clock"></i> <span data-i18n="footer_hours">Sun-Thu: 9:00 AM - 6:00 PM</span></li>
+                        </ul>
+                        <div class="social-links">
+                            <h4 data-i18n="footer_follow">Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/zohatec"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com/zohapixel"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/zohatec"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.instagram.com/zohatec"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="footer_copyright">&copy; 2026 sSBC Marketing Agency. All Rights Reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#" data-i18n="footer_privacy">Privacy Policy</a>
+                    <a href="#" data-i18n="footer_terms">Terms & Conditions</a>
+                    <a href="#" data-i18n="footer_cookie">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="lang.js" defer></script>
+    <script src="contact.js" defer></script>
+    <scroll-to-top></scroll-to-top>
+</body>
+</html>
