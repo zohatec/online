@@ -1617,7 +1617,51 @@ a[href*="article.html"] {
     margin-top: 5px;
     display: none;
 }
+/* Contact info section */
+.contact-info-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 2px solid #ff652f;
+}
+.contact-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+.info-address h3,
+.info-map h3 {
+    color: #FDE767;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.info-address .footer-contact {
+    list-style: none;
+    padding: 0;
+}
+.info-address .footer-contact li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #ccc;
+    font-size: 1rem;
+}
+.info-address .footer-contact i {
+    color: #1ea55d;
+    min-width: 20px;
+}
+.info-map iframe {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
 
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .contact-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
 /* ========== NEWSLETTER FOOTER ========== */
 .newsletter-form {
     display: flex;
