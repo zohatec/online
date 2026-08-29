@@ -26,17 +26,17 @@ class NavContainer extends HTMLElement {
                             <div class="content">
                                 <div class="col">
                                     <a href="article.html?type=service&id=1" class="img-wrapper">
-                                        <span class="img"><img src="images/web.jpg" alt="Web Development"/></span>
+                                        <span class="img"><img src="images/web.jpg" alt="Web Design"/></span>
                                     </a>
-                                    <h2 data-i18n="service_1_title">Web Development</h2>
+                                    <h2 data-i18n="service_1_title">Web Design</h2>
                                     <p data-i18n="service_1_desc">Website is very crucial in the digital era. It enables businesses to showcase their products or services globally, reaching a vast audience. Build your Website with us.</p>
                                     <a href="article.html?type=service&id=1" class="read-more" data-i18n="read_more">Read More</a>
                                 </div>
                                 <div class="col">
                                     <a href="article.html?type=service&id=2" class="img-wrapper">
-                                        <span class="img"><img src="images/seo.jpg" alt="SEO"/></span>
+                                        <span class="img"><img src="images/seo.jpg" alt="SEO & GEO"/></span>
                                     </a>
-                                    <h2 data-i18n="service_2_title">SEO</h2>
+                                    <h2 data-i18n="service_2_title">SEO & GEO</h2>
                                     <p data-i18n="service_2_desc">Search Engine Optimization is essential to rank a Website on Google. We need to build a Website following SEO rules. It helps to make huge traffic on a Website.</p>
                                     <a href="article.html?type=service&id=2" class="read-more" data-i18n="read_more">Read More</a>
                                 </div>
@@ -50,10 +50,10 @@ class NavContainer extends HTMLElement {
                                 </div>
                                 <div class="col">
                                     <a href="article.html?type=service&id=4" class="img-wrapper">
-                                        <span class="img"><img src="images/ncon.jpg" alt="Content Writing"/></span>
+                                        <span class="img"><img src="images/ncon.jpg" alt="Video Editing"/></span>
                                     </a>
-                                    <h2 data-i18n="service_4_title">Content Writing</h2>
-                                    <p data-i18n="service_4_desc">The power of good Content should never be underestimated. Content writing can make or break your Brand. That is why invest additional effort on it.</p>
+                                    <h2 data-i18n="service_4_title">Video Editing</h2>
+                                    <p data-i18n="service_4_desc">The power of good Video Content should never be underestimated. Video Content can make or break your Brand. That is why invest additional effort on it.</p>
                                     <a href="article.html?type=service&id=4" class="read-more" data-i18n="read_more">Read More</a>
                                 </div>
                             </div>
