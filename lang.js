@@ -13,30 +13,30 @@ const translations = {
 
         // ---------- Hero Typing ----------
         'I\'m a': 'I\'m a',
-        'typing_1': 'UI/UX/Web Designer',
+        'typing_1': 'Web/UI/UX Designer',
         'typing_2': 'WordPress Developer',
         'typing_3': 'Video Editor',
         'typing_4': 'Social Media Manager',
 
         // ---------- Banner ----------
-        'banner_title': 'Build your Online Presence with sSBC...',
+        'banner_title': 'Build your Online Presence with Zohatec ...',
         'banner_text': 'Unlock the full potential of your business with our comprehensive Online Presence Solutions. We specialize in shaping compelling Websites, driving organic traffic through SEO, executing targeted Digital Marketing campaigns, and delivering engaging Content that vibrates with your audience.',
         'get_started': 'Get Started',
 
         // ---------- Services Section ----------
         'services_title': '--: Services we Offer :--',
-        'service_1_title': 'Web Development',
-        'service_1_desc': 'We are the leading Web Development service provider in Bangladesh. Website is very crucial in the digital era. It enables businesses to showcase their products or services globally, reaching a vast audience. Build your Website with us. Join with us for any kind of Website of your Business or Brand . . .',
-        'service_2_title': 'SEO',
-        'service_2_desc': 'Our SEO service will lead your Business on Top of others. Search Engine Optimization is essential to rank a Website on Google. We need to build a Website following SEO rules. It helps to make huge traffic on a Website. If you want rank your Website on first page of Google contact with us . . .',
-        'service_3_title': 'Digital Marketing',
-        'service_3_desc': 'Today is the decade of being present online every moment. Without having online presence, your Business might fall down. It is crucial to make a cost-effective means for businesses to engage and build relationships with customers through various channels like social media, email, and search engines . . .',
-        'service_4_title': 'Content Writing',
-        'service_4_desc': 'Content writing involves the creation of written material for various platforms like websites, blogs, and social media about the product for the audience. The power of good Content should never be underestimated. Content writing can make or break your Brand. That is why invest additional effort on it . . .',
+        'service_1_title': 'Web Design',
+        'service_1_desc': 'In today’s digital world, a professional website is one of the most valuable assets for any business, brand, or individual. It creates a strong online identity and gives people a clear place to learn about your products, services, expertise, and values. A well-designed website builds credibility, increases customer trust, and helps a business stand out from competitors. It also works as a digital representative that can reach potential customers 24/7, regardless of location or time. For a growing business or personal brand, a professional website is not simply an online presence—it is a powerful foundation for long-term growth, visibility, and success. . . .',
+        'service_3_title': 'SEO & GEO',
+        'service_3_desc': 'In today’s highly competitive digital landscape, SEO and GEO play a crucial role in helping a business, brand, or individual become more visible and discoverable online. SEO (Search Engine Optimization) helps websites appear higher in traditional search engine results, while GEO (Generative Engine Optimization) focuses on making a brand, business, or content more likely to be understood, recognized, and mentioned by AI-powered search and answer platforms. Together, SEO and GEO can increase online visibility, attract the right audience, build authority and trust, and create more opportunities for growth. Without a strong SEO and GEO strategy, even an excellent website, product, service, or personal brand can remain invisible to the people who are actively looking for it. In the modern digital world, SEO and GEO are not optional marketing techniques—they are essential foundations for building a strong, competitive, and sustainable online presence. . .',
+        'service_2_title': 'Digital Marketing',
+        'service_2_desc': 'In today’s digital-first world, Digital Marketing has become essential for every business, brand, and individual who wants to reach the right audience and grow successfully. It provides powerful ways to promote products, services, expertise, and ideas through platforms such as search engines, social media, websites, email, and online advertising. Unlike traditional marketing, Digital Marketing allows businesses to connect with specific audiences, measure performance, build meaningful relationships, and continuously improve their marketing strategies based on real data. A strong Digital Marketing strategy can increase brand awareness, generate quality leads, drive sales, and create long-term customer relationships. For any modern business or personal brand, Digital Marketing is no longer just a promotional option—it is a fundamental part of building visibility, credibility, competitiveness, and sustainable growth in the online world. . .',
+        'service_4_title': 'VDO Editing',
+        'service_4_desc': 'In today’s fast-moving digital world, Video Editing has become an essential tool for businesses, brands, creators, and professionals who want to capture attention and communicate their message effectively. A well-edited video can transform simple footage into engaging content that tells a story, highlights a product or service, and creates a memorable connection with the audience. Professional Video Editing improves visual quality, strengthens brand identity, and makes content more attractive and easier to understand across platforms such as Facebook, Instagram, YouTube, TikTok, and websites. It can also increase audience engagement, build credibility, and encourage viewers to take meaningful actions such as following a brand, making a purchase, or contacting a business. For any modern business or personal brand, Video Editing is not merely a way to make videos look better—it is a powerful communication and marketing asset that can significantly influence visibility, engagement, and growth. . .',
 
         // ---------- CTA Section ----------
         'cta_title': 'Ready to Transform Your Online Presence?',
-        'cta_text': 'Get a <span class="highlight">FREE</span> Digital Marketing Audit & Consultation worth $9',
+        'cta_text': 'Get a <span class="highlight">FREE</span> Digital Marketing Audit & Consultation with us...',
         'cta_phone': 'Call Now: +880 1719 550 700',
         'cta_whatsapp': 'Chat on WhatsApp',
         'cta_email': 'Book Free Consultation',
@@ -101,7 +101,7 @@ const translations = {
 
         // ---------- Testimonials ----------
         'testimonial_heading': '" Testimonials from our valued customers "',
-        'testimonial_1_text': '" I was amazed by the outstanding service provided by sSBC. The commitment to customer satisfaction truly set them apart. I highly recommend their services to anyone who are looking for excellence."',
+        'testimonial_1_text': '" I was amazed by the outstanding service provided by Zohatec. The commitment to customer satisfaction truly set them apart. I highly recommend their services to anyone who are looking for excellence."',
         'testimonial_1_name': 'Rehana Rakhi',
         'testimonial_1_job': 'Graphic Designer',
         'testimonial_2_text': '" Working with this team has been a game-changer for my business. Their expertise and dedication have significantly boosted our online presence. We are proud of their services, best of luck."',
@@ -120,7 +120,7 @@ const translations = {
         'faq_3_q': '3. Is it necessary to be present on all platforms to establish an online identity?',
         'faq_3_a': 'No, it is not necessary for businesses to be present on all platforms to establish an online identity. The choice of platforms should be based on the target audience, industry, and marketing goals of the business. Consistency and active engagement on a few key platforms can go a long way in establishing a compelling and recognizable online identity.',
         'faq_4_q': '4. What services does your marketing agency offer?',
-        'faq_4_a': 'We specialize in a comprehensive range of services to elevate your online presence. Our main offerings include Web Development, SEO (Search Engine Optimization), Digital Marketing and Content writing. Whether you need a stunning website, improved search rankings, targeted digital campaigns, or engaging content, we have the expertise to meet all your requirements.',
+        'faq_4_a': 'We specialize in a comprehensive range of services to elevate your online presence. Our main offerings include Web Design, SEO & GEO, Digital Marketing and Video Editing. Whether you need a stunning website, improved search rankings, targeted digital campaigns, or engaging video content, we have the expertise to meet all your requirements.',
         'faq_5_q': '5. What is web development and why is it important for my business?',
         'faq_5_a': 'Web development refers to the process of creating and maintaining websites. It involves various tasks such as web site design, coding, programming, website maintenance, etc. Website is crucial for establishing a strong online presence. A well-designed website not only enhances your brand image but also provides a user-friendly experience. It serves as a 24/7 digital storefront, attracting potential customers and boosting your credibility. Our expert web development team ensures your site is not just visually appealing but also optimized for performance and functionality.',
         'faq_6_q': '6. How does SEO (Search Engine Optimization) benefit my business?',
@@ -131,13 +131,13 @@ const translations = {
         'faq_8_a': 'Digital marketing encompasses various online marketing strategies such as social media marketing, email marketing, pay-per-click advertising, and more. It leverages digital channels to reach and engage with your target audience, driving brand awareness, generating leads, and increasing conversions. Digital marketing offers precise targeting, measurable results, and the ability to adapt campaigns in real-time, making it a cost-effective and efficient way to grow your business in the digital era.',
         'faq_9_q': '9. Why is quality content crucial for my online identity?',
         'faq_9_a': 'Content writing plays a crucial role in attracting and engaging your website visitors. High-quality and relevant content helps convey your brand message, educate your audience, and establish your expertise in your industry. Well-crafted content also improves your website’s search engine visibility, as search engines value informative and valuable content. Whether it’s blog posts, articles, product descriptions, or website copy, investing in professional content writing can significantly enhance your online presence and help drive organic traffic and conversions.',
-        'faq_10_q': '10. What sets your content writing services apart from others?',
-        'faq_10_a': 'Our content writing services stand out for their quality, relevance, and strategic approach. We don’t just create content for the sake of it; we tailor each piece to align with your brand voice, target audience, and SEO goals. Our team of skilled writers focuses on delivering content that not only engages your audience but also drives meaningful results for your business, be it increased website traffic or higher conversion rates.',
+        'faq_10_q': '10. What sets your design services apart from others?',
+        'faq_10_a': 'Our design services stand out for their quality, relevance, and strategic approach. We do not just create design for the sake of it; we tailor each piece to align with your brand voice, target audience, and SEO goals. Our team of skilled designers focuses on delivering designs & content that not only engages your audience but also drives meaningful results for your business, be it increased website traffic or higher conversion rates.',
         'faq_11_q': '11. Can you redesign an existing website, or do you only create new ones?',
         'faq_11_a': 'Absolutely ! Whether you have an existing website that needs a fresh look or you’re starting from scratch, we offer both website redesign and new website development services. Our team works closely with you to understand your goals and preferences, ensuring the end result aligns perfectly with your brand identity and business objectives. Our expert web development team ensures your site is not just visually appealing but also optimized for performance and functionality.',
 
         // ---------- Footer ----------
-        'footer_about_title': 'About sSBC',
+        'footer_about_title': 'About Zohatec',
         'footer_about_text': 'We are a premier digital marketing agency specializing in creating impactful online presence for businesses. Our team of experts delivers results-driven solutions.',
         'footer_quick_links': 'Quick Links',
         'footer_our_services': 'Our Services',
@@ -147,10 +147,10 @@ const translations = {
         'footer_contact_title': 'Contact Us',
         'footer_address': 'sSBC Point, Samsadipur, Katakhali, Rajshahi, Bangladesh.',
         'footer_phone': '+880 1719 550 700',
-        'footer_email': 'info@ssbc.com',
+        'footer_email': 'info@zohatec.com',
         'footer_hours': 'Sun-Thu: 9:00 AM - 6:00 PM',
         'footer_follow': 'Follow Us',
-        'footer_copyright': '© 2026 sSBC Marketing Agency. All Rights Reserved.',
+        'footer_copyright': '© 2026 Zohatec Marketing Agency. All Rights Reserved.',
         'footer_privacy': 'Privacy Policy',
         'footer_terms': 'Terms & Conditions',
         'footer_cookie': 'Cookie Policy',
@@ -185,34 +185,34 @@ const translations = {
 
         // ---------- Hero Typing ----------
         'I\'m a': 'আমি একজন',
-        'typing_1': 'UI/UX/ওয়েব ডিজাইনার', 
+        'typing_1': 'Web/UI/UX ডিজাইনার', 
         'typing_2': 'ওয়ার্ডপ্রেস ডেভেলপার',
         'typing_3': 'ভিডিও এডিটর',
         'typing_4': 'সোশ্যাল মিডিয়া ম্যানেজার',
 
         // ---------- Banner ----------
-        'banner_title': 'sSBC-এর সাথে তৈরি করুন আপনার অনলাইন উপস্থিতি...',
+        'banner_title': 'Zohatec-এর সাথে তৈরি করুন আপনার অনলাইন উপস্থিতি...',
         'banner_text': 'আমাদের অনলাইন উপস্থিতি সেবার মাধ্যমে আপনার ব্যবসার পূর্ণ সম্ভাবনা উন্মোচন করুন। আমরা আকর্ষণীয় ওয়েবসাইট তৈরি, এসইও-এর মাধ্যমে রিয়াল ট্রাফিক বৃদ্ধি, টার্গেটেড ডিজিটাল মার্কেটিং ক্যাম্পেইন এবং আপনার দর্শকদের সাথে সংযোগ স্থাপনকারী কন্টেন্ট সরবরাহে বিশেষজ্ঞ।',
         'get_started': 'শুরু করুন',
 
         // ---------- Services Section ----------
         'services_title': '--: আমাদের সেবাসমূহ :--',
-        'service_1_title': 'ওয়েব ডেভেলপমেন্ট',
-        'service_1_desc': 'আমরা বাংলাদেশের শীর্ষস্থানীয় ওয়েব ডেভেলপমেন্ট সার্ভিস প্রোভাইডার। ডিজিটাল যুগে ওয়েবসাইট খুবই গুরুত্বপূর্ণ। এটি ব্যবসাগুলোকে তাদের পণ্য বা সেবা বিশ্বব্যাপী প্রদর্শন করতে সক্ষম করে। আপনার ওয়েবসাইটটি আমাদের সাথে তৈরি করুন। আপনার ব্যবসা বা ব্র্যান্ডের যেকোনো ধরনের ওয়েবসাইটের জন্য আমাদের সাথে যোগ দিন . . .',
-        'service_2_title': 'এসইও',
-        'service_2_desc': 'আমাদের এসইও সার্ভিস আপনার ব্যবসাকে অন্যদের থেকে এগিয়ে রাখবে। গুগলে ওয়েবসাইট র‍্যাংক করানোর জন্য সার্চ ইঞ্জিন অপটিমাইজেশন অপরিহার্য। এসইও নিয়ম মেনে ওয়েবসাইট তৈরি করতে হবে। এটি ওয়েবসাইটে বিশাল ট্রাফিক তৈরি করতে সহায়তা করে। আপনি যদি আপনার ওয়েবসাইট গুগলের প্রথম পৃষ্ঠায় র‍্যাংক করাতে চান তবে আমাদের সাথে যোগাযোগ করুন . . .',
-        'service_3_title': 'ডিজিটাল মার্কেটিং',
-        'service_3_desc': 'বর্তমানে কাস্টমার প্রতিটি মুহূর্তে অনলাইনে উপস্থিত থাকে। তাই সঠিক অনলাইন উপস্থিতি ছাড়া আপনার ব্যবসা পিছিয়ে পড়তে পারে। ব্যবসার জন্য সাশ্রয়ী উপায়ে সোশ্যাল মিডিয়া, ইমেইল এবং সার্চ ইঞ্জিনের মতো বিভিন্ন চ্যানেলের মাধ্যমে গ্রাহকদের সাথে সম্পৃক্ত হওয়া এবং সম্পর্ক তৈরি করা অত্যন্ত গুরুত্বপূর্ণ . . .',
-        'service_4_title': 'কন্টেন্ট রাইটিং',
-        'service_4_desc': 'কন্টেন্ট রাইটিং হলো ওয়েবসাইট, ব্লগ এবং সোশ্যাল মিডিয়ার মতো বিভিন্ন প্ল্যাটফর্মের জন্য দর্শকদের লক্ষ্য করে পণ্য সম্পর্কে লিখিত উপাদান তৈরি করা। ভালো কন্টেন্টের শক্তি কখনই অবমূল্যায়ন করা উচিত নয়। কন্টেন্ট রাইটিং আপনার ব্র্যান্ড তৈরি বা ভেঙে দিতে পারে। তাই এতে অতিরিক্ত প্রচেষ্টা বিনিয়োগ করুন . . .',
+        'service_1_title': 'ওয়েব ডিজাইন',
+        'service_1_desc': 'বর্তমান ডিজিটাল যুগে একটি Professional Website যেকোনো ব্যবসা, ব্র্যান্ড বা ব্যক্তির জন্য সবচেয়ে গুরুত্বপূর্ণ সম্পদগুলোর একটি। এটি একটি শক্তিশালী অনলাইন পরিচয় তৈরি করে এবং মানুষের সামনে আপনার পণ্য, সেবা, দক্ষতা ও কাজের মূল্যবোধ সম্পর্কে স্পষ্ট ধারণা তুলে ধরে। একটি সুন্দর ও কার্যকর ওয়েবসাইট প্রতিষ্ঠানের বিশ্বাসযোগ্যতা বাড়ায়, মানুষের আস্থা তৈরি করে এবং প্রতিযোগীদের তুলনায় একটি ব্যবসা বা ব্র্যান্ডকে আলাদাভাবে উপস্থাপন করতে সাহায্য করে। পাশাপাশি, এটি এমন একটি Digital Representative হিসেবে কাজ করে, যা দিন-রাত ২৪ ঘণ্টা এবং যেকোনো স্থান থেকে সম্ভাব্য গ্রাহকদের কাছে আপনার ব্যবসার পরিচয় পৌঁছে দিতে পারে। তাই একটি Professional Website শুধু অনলাইনে উপস্থিত থাকার মাধ্যম নয়; এটি দীর্ঘমেয়াদি উন্নতি, পরিচিতি এবং সাফল্যের জন্য একটি শক্তিশালী ভিত্তি. . .',
+        'service_3_title': 'এসইও ও জিইও',
+        'service_3_desc': 'বর্তমানের অত্যন্ত প্রতিযোগিতামূলক ডিজিটাল বিশ্বে একটি ব্যবসা, ব্র্যান্ড বা ব্যক্তিকে অনলাইনে আরও বেশি দৃশ্যমান ও সহজে খুঁজে পাওয়ার উপযোগী করে তুলতে SEO ও GEO অত্যন্ত গুরুত্বপূর্ণ ভূমিকা পালন করে। SEO (Search Engine Optimization) একটি ওয়েবসাইটকে প্রচলিত Search Engine-এর ফলাফলে ভালো অবস্থানে আসতে সাহায্য করে, আর GEO (Generative Engine Optimization) কোনো ব্র্যান্ড, ব্যবসা বা কনটেন্টকে AI-ভিত্তিক Search ও Answer Platform-এর কাছে সহজে বোঝা, শনাক্ত করা এবং উল্লেখযোগ্য করে তুলতে সাহায্য করে। একসঙ্গে SEO ও GEO অনলাইন Visibility বৃদ্ধি করে, সঠিক Audience-এর কাছে পৌঁছাতে সাহায্য করে, Brand Authority ও Trust তৈরি করে এবং ব্যবসার নতুন Growth Opportunity তৈরি করে। একটি ওয়েবসাইট, পণ্য, সেবা বা ব্যক্তিগত ব্র্যান্ড যতই ভালো হোক না কেন, শক্তিশালী SEO ও GEO Strategy না থাকলে সেটি প্রয়োজনীয় মানুষের কাছে অদৃশ্যই থেকে যেতে পারে। তাই বর্তমান ডিজিটাল যুগে SEO ও GEO শুধু Marketing Technique নয়; বরং একটি শক্তিশালী, প্রতিযোগিতামূলক এবং দীর্ঘস্থায়ী Online Presence গড়ে তোলার অপরিহার্য ভিত্তি. . .',
+        'service_2_title': 'ডিজিটাল মার্কেটিং',
+        'service_2_desc': 'বর্তমান Digital-First বিশ্বে সঠিক Audience-এর কাছে পৌঁছানো এবং সফলভাবে Business Growth অর্জনের জন্য Digital Marketing প্রতিটি ব্যবসা, ব্র্যান্ড এবং ব্যক্তির জন্য অত্যন্ত গুরুত্বপূর্ণ হয়ে উঠেছে। Search Engine, Social Media, Website, Email এবং Online Advertising-এর মতো বিভিন্ন ডিজিটাল মাধ্যমে পণ্য, সেবা, দক্ষতা ও ধারণাকে মানুষের কাছে কার্যকরভাবে পৌঁছে দেওয়ার সুযোগ তৈরি করে Digital Marketing। Traditional Marketing-এর তুলনায় Digital Marketing-এর বড় সুবিধা হলো নির্দিষ্ট Audience-এর কাছে পৌঁছানো, Marketing Performance পরিমাপ করা, Customer-এর সঙ্গে দীর্ঘমেয়াদি সম্পর্ক তৈরি করা এবং বাস্তব Data-এর ভিত্তিতে Marketing Strategy উন্নত করা। একটি শক্তিশালী Digital Marketing Strategy Brand Awareness বৃদ্ধি করতে, সম্ভাব্য Customer বা Lead তৈরি করতে, Sales বাড়াতে এবং দীর্ঘস্থায়ী Customer Relationship গড়ে তুলতে গুরুত্বপূর্ণ ভূমিকা রাখে। তাই আধুনিক কোনো ব্যবসা বা Personal Brand-এর জন্য Digital Marketing শুধু প্রচারের একটি মাধ্যম নয়; বরং Online Visibility, Credibility, Competitiveness এবং Sustainable Growth নিশ্চিত করার একটি অপরিহার্য ভিত্তি. . .',
+        'service_4_title': 'ভিডিও এডিটিং',
+        'service_4_desc': 'বর্তমান দ্রুত পরিবর্তনশীল ডিজিটাল বিশ্বে মানুষের দৃষ্টি আকর্ষণ করা এবং কার্যকরভাবে কোনো বার্তা পৌঁছে দেওয়ার জন্য Video Editing ব্যবসা, ব্র্যান্ড, কনটেন্ট ক্রিয়েটর এবং পেশাজীবীদের জন্য অত্যন্ত গুরুত্বপূর্ণ একটি মাধ্যম হয়ে উঠেছে। একটি ভালোভাবে Edit করা Video সাধারণ Footage-কে এমন আকর্ষণীয় Content-এ রূপ দিতে পারে, যা একটি গল্প তুলে ধরে, কোনো Product বা Service-এর গুরুত্ব বোঝায় এবং Audience-এর সঙ্গে একটি স্মরণীয় সম্পর্ক তৈরি করে। Professional Video Editing ভিডিওর Visual Quality উন্নত করে, Brand Identity আরও শক্তিশালী করে এবং Facebook, Instagram, YouTube, TikTok ও Website-এর মতো বিভিন্ন Platform-এ Content-কে আরও আকর্ষণীয় ও সহজবোধ্য করে তোলে। একই সঙ্গে এটি Audience Engagement বাড়াতে, Brand Credibility তৈরি করতে এবং দর্শকদের Follow করা, Product কেনা বা Business-এর সঙ্গে যোগাযোগ করার মতো গুরুত্বপূর্ণ সিদ্ধান্ত নিতে উৎসাহিত করতে পারে। তাই আধুনিক কোনো Business বা Personal Brand-এর জন্য Video Editing শুধু ভিডিওকে সুন্দর দেখানোর একটি পদ্ধতি নয়; এটি এমন একটি শক্তিশালী Communication ও Marketing Asset, যা Visibility, Engagement এবং Business Growth-এর ওপর উল্লেখযোগ্য প্রভাব ফেলতে পারে. . .',
 
         // ---------- CTA Section ----------
-        'cta_title': 'আপনার অনলাইন উপস্থিতি রূপান্তর করতে প্রস্তুত?',
-        'cta_text': 'মূল্য $৯ এর একটি <span class="highlight">ফ্রি</span> ডিজিটাল মার্কেটিং অডিট ও কনসাল্টেশন পান',
+        'cta_title': 'আপনি কি আপনার অনলাইন উপস্থিতি শক্তিশালী করতে প্রস্তুত?',
+        'cta_text': 'এখনই যোগাযোগ করুন এবং <span class="highlight">ফ্রি</span> ডিজিটাল মার্কেটিং অডিট ও কনসাল্টেশন নিন',
         'cta_phone': 'এখনই কল করুন: +৮৮০ ১৭১৯ ৫৫০ ৭০০',
         'cta_whatsapp': 'হোয়াটসঅ্যাপে চ্যাট করুন',
         'cta_email': 'ফ্রি কনসাল্টেশন বুক করুন',
-        'cta_note': 'সীমিত সময়ের অফার - প্রথম ২০ ক্লায়েন্ট সকল সেবায় ৩০% ছাড় পান!',
+        'cta_note': 'সীমিত সময়ের অফার - প্রথম ২০ জন ক্লায়েন্টের জন্য রয়েছে সকল সেবায় ৩০% ছাড়!',
 
         // ---------- Portfolio Intro ----------
         'portfolio_title': '--: আমাদের প্রমাণ দেখতে পোর্টফোলিও :--',
@@ -273,7 +273,7 @@ const translations = {
 
         // ---------- Testimonials ----------
         'testimonial_heading': '" আমাদের মূল্যবান গ্রাহকদের প্রশংসাপত্র "',
-        'testimonial_1_text': '" sSBC-এর অসাধারণ সেবা দেখে আমি বিস্মিত। গ্রাহক সন্তুষ্টির প্রতি তাদের প্রতিশ্রুতি সত্যিই তাদের আলাদা করেছে। আমি- যারা শ্রেষ্ঠত্ব খুঁজছেন তাদের কাছে sSBC-এর সেবা অত্যন্ত সুপারিশ করি।"',
+        'testimonial_1_text': '" Zohatec-এর অসাধারণ সেবা দেখে আমি সন্তুষ্ট। গ্রাহক সন্তুষ্টির প্রতি তাদের প্রতিশ্রুতি সত্যিই তাদের আলাদা করেছে। আমি- যারা শ্রেষ্ঠত্ব খুঁজছেন তাদের কাছে Zohatec-এর সেবা সুপারিশ করছি।"',
         'testimonial_1_name': 'রেহানা রাখী',
         'testimonial_1_job': 'গ্রাফিক ডিজাইনার',
         'testimonial_2_text': '" এই দলের সাথে কাজ করা আমার ব্যবসার জন্য একটি গেম-চেঞ্জার হয়েছে। তাদের দক্ষতা এবং উৎসর্গ আমাদের অনলাইন উপস্থিতি উল্লেখযোগ্যভাবে বাড়িয়েছে। আমরা তাদের সেবায় গর্বিত, শুভকামনা।"',
@@ -292,7 +292,7 @@ const translations = {
         'faq_3_q': '৩. অনলাইন পরিচয় প্রতিষ্ঠার জন্য কি সব প্ল্যাটফর্মে উপস্থিত থাকা প্রয়োজন?',
         'faq_3_a': 'না, অনলাইন পরিচয় প্রতিষ্ঠার জন্য ব্যবসার জন্য সব প্ল্যাটফর্মে উপস্থিত থাকা প্রয়োজন নয়। প্ল্যাটফর্মের পছন্দ ব্যবসার লক্ষ্য দর্শক, শিল্প এবং মার্কেটিং লক্ষ্যের উপর ভিত্তি করে হওয়া উচিত। কয়েকটি মূল প্ল্যাটফর্মে ধারাবাহিকতা এবং সক্রিয় ব্যস্ততা একটি আকর্ষণীয় এবং স্বীকৃত অনলাইন পরিচয় প্রতিষ্ঠায় অনেক দূর এগিয়ে যেতে পারে।',
         'faq_4_q': '৪. আপনার মার্কেটিং এজেন্সি কী কী সেবা প্রদান করে?',
-        'faq_4_a': 'আমরা আপনার অনলাইন উপস্থিতি উন্নত করতে ব্যাপক পরিসরের সেবায় বিশেষজ্ঞ। আমাদের প্রধান অফারগুলির মধ্যে রয়েছে ওয়েব ডেভেলপমেন্ট, এসইও (সার্চ ইঞ্জিন অপটিমাইজেশন), ডিজিটাল মার্কেটিং এবং কন্টেন্ট রাইটিং। আপনার একটি চমৎকার ওয়েবসাইট, উন্নত সার্চ র‍্যাংকিং, লক্ষ্যভিত্তিক ডিজিটাল ক্যাম্পেইন বা আকর্ষণীয় কন্টেন্ট যাই প্রয়োজন হোক না কেন, আপনার সকল প্রয়োজন মেটাতে আমাদের দক্ষতা রয়েছে।',
+        'faq_4_a': 'আমরা আপনার অনলাইন উপস্থিতি উন্নত করতে ব্যাপক পরিসরের সেবায় বিশেষজ্ঞ। আমাদের প্রধান অফারগুলির মধ্যে রয়েছে ওয়েব ডিজাইন, এসইও ও জিইও, ডিজিটাল মার্কেটিং এবং ভিডিও এডিটিং। আপনার একটি চমৎকার ওয়েবসাইট, উন্নত সার্চ র‍্যাংকিং, লক্ষ্যভিত্তিক ডিজিটাল ক্যাম্পেইন বা আকর্ষণীয় ভিডিও কন্টেন্ট যাই প্রয়োজন হোক না কেন, আপনার সকল প্রয়োজন মেটাতে আমাদের দক্ষতা রয়েছে।',
         'faq_5_q': '৫. ওয়েব ডেভেলপমেন্ট কী এবং এটি আমার ব্যবসার জন্য কেন গুরুত্বপূর্ণ?',
         'faq_5_a': 'ওয়েব ডেভেলপমেন্ট বলতে ওয়েবসাইট তৈরি এবং রক্ষণাবেক্ষণের প্রক্রিয়াকে বোঝায়। এতে ওয়েবসাইট ডিজাইন, কোডিং, প্রোগ্রামিং, ওয়েবসাইট মেইনটেন্যান্স ইত্যাদির মতো বিভিন্ন কাজ জড়িত। একটি শক্তিশালী অনলাইন উপস্থিতি প্রতিষ্ঠার জন্য ওয়েবসাইট অত্যন্ত গুরুত্বপূর্ণ। একটি সু-পরিকল্পিত ওয়েবসাইট শুধু আপনার ব্র্যান্ড ইমেজই বাড়ায় না বরং একটি ব্যবহারকারী-বান্ধব অভিজ্ঞতাও প্রদান করে। এটি ২৪/৭ ডিজিটাল শোরুম হিসেবে কাজ করে, সম্ভাব্য গ্রাহকদের আকর্ষণ করে এবং আপনার বিশ্বাসযোগ্যতা বাড়ায়। আমাদের বিশেষজ্ঞ ওয়েব ডেভেলপমেন্ট টিম নিশ্চিত করে যে আপনার সাইটটি দৃশ্যত আকর্ষণীয় ই নয় বরং কর্মক্ষমতা এবং কার্যকারিতার জন্যও অপটিমাইজড।',
         'faq_6_q': '৬. এসইও (সার্চ ইঞ্জিন অপটিমাইজেশন) কীভাবে আমার ব্যবসার উপকার করে?',
@@ -303,13 +303,13 @@ const translations = {
         'faq_8_a': 'ডিজিটাল মার্কেটিং সোশ্যাল মিডিয়া মার্কেটিং, ইমেইল মার্কেটিং, পে-পার-ক্লিক বিজ্ঞাপন এবং আরও অনেক কিছুর মতো বিভিন্ন অনলাইন মার্কেটিং কৌশল অন্তর্ভুক্ত করে। এটি আপনার লক্ষ্য দর্শকদের কাছে পৌঁছাতে এবং তাদের সাথে সম্পৃক্ত হতে ডিজিটাল চ্যানেল ব্যবহার করে, ব্র্যান্ড সচেতনতা চালনা করে, লিড তৈরি করে এবং রূপান্তর বৃদ্ধি করে। ডিজিটাল মার্কেটিং নির্ভুল টার্গেটিং, পরিমাপযোগ্য ফলাফল এবং রিয়েল-টাইমে ক্যাম্পেইন মানিয়ে নেওয়ার ক্ষমতা প্রদান করে, যা ডিজিটাল যুগে আপনার ব্যবসা বাড়ানোর একটি সাশ্রয়ী এবং কার্যকর উপায় করে তোলে।',
         'faq_9_q': '৯. আমার অনলাইন পরিচয়ের জন্য মানসম্পন্ন কন্টেন্ট কেন গুরুত্বপূর্ণ?',
         'faq_9_a': 'কন্টেন্ট রাইটিং আপনার ওয়েবসাইট দর্শকদের আকর্ষণ এবং সম্পৃক্ত করতে গুরুত্বপূর্ণ ভূমিকা পালন করে। উচ্চ-মানের এবং প্রাসঙ্গিক কন্টেন্ট আপনার ব্র্যান্ড বার্তা পৌঁছে দিতে, আপনার দর্শকদের শিক্ষিত করতে এবং আপনার শিল্পে আপনার দক্ষতা প্রতিষ্ঠা করতে সহায়তা করে। সু-নির্মিত কন্টেন্ট আপনার ওয়েবসাইটের সার্চ ইঞ্জিন দৃশ্যমানতাও উন্নত করে, কারণ সার্চ ইঞ্জিন তথ্যপূর্ণ এবং মূল্যবান কন্টেন্টকে মূল্য দেয়। এটি ব্লগ পোস্ট, নিবন্ধ, পণ্যের বিবরণ বা ওয়েবসাইট কপি যাই হোক না কেন, পেশাদার কন্টেন্ট রাইটিংয়ে বিনিয়োগ আপনার অনলাইন উপস্থিতি উল্লেখযোগ্যভাবে উন্নত করতে পারে এবং রিয়েল ট্রাফিক ও রূপান্তর চালাতে সহায়তা করতে পারে।',
-        'faq_10_q': '১০. আপনার কন্টেন্ট রাইটিং সেবাগুলিকে অন্যদের থেকে কী আলাদা করে?',
-        'faq_10_a': 'আমাদের কন্টেন্ট রাইটিং সেবাগুলি তাদের গুণমান, প্রাসঙ্গিকতা এবং কৌশলগত পদ্ধতির জন্য আলাদা। আমরা শুধু কন্টেন্ট তৈরির জন্য তৈরি করি না; আমরা প্রতিটি অংশকে আপনার ব্র্যান্ড ভয়েস, টার্গেটেড অডিয়েন্স এবং এসইও লক্ষ্যগুলির সাথে সামঞ্জস্যপূর্ণ করি। দক্ষ লেখকদের আমাদের দল এমন কন্টেন্ট সরবরাহের উপর দৃষ্টি নিবদ্ধ করে যা শুধু আপনার দর্শকদের সম্পৃক্তই করে না বরং আপনার ব্যবসার জন্য অর্থপূর্ণ ফলাফলও চালনা করে, তা বর্ধিত ওয়েবসাইট ট্রাফিক হোক বা উচ্চতর রূপান্তর হার।',
+        'faq_10_q': '১০. আপনার কন্টেন্ট ডিজাইন সেবাগুলিকে অন্যদের থেকে কী আলাদা করে?',
+        'faq_10_a': 'আমাদের কন্টেন্ট ডিজাইন সেবাগুলি তাদের গুণমান, প্রাসঙ্গিকতা এবং কৌশলগত পদ্ধতির জন্য আলাদা। আমরা শুধু কন্টেন্ট তৈরির জন্য তৈরি করি না; আমরা প্রতিটি অংশকে আপনার ব্র্যান্ড ভয়েস, টার্গেটেড অডিয়েন্স এবং এসইও লক্ষ্যগুলির সাথে সামঞ্জস্যপূর্ণ করি। দক্ষ ডিজাইনারদের আমাদের দল এমন কন্টেন্ট সরবরাহের উপর দৃষ্টি নিবদ্ধ করে যা শুধু আপনার দর্শকদের সম্পৃক্তই করে না বরং আপনার ব্যবসার জন্য অর্থপূর্ণ ফলাফলও চালনা করে, তা বর্ধিত ওয়েবসাইট ট্রাফিক হোক বা উচ্চতর রূপান্তর হার।',
         'faq_11_q': '১১. আপনি কি একটি বিদ্যমান ওয়েবসাইট পুনর্নির্মাণ করতে পারেন, নাকি আপনি শুধু নতুন তৈরি করেন?',
         'faq_11_a': 'একেবারে! আপনার কাছে একটি বিদ্যমান ওয়েবসাইট থাকলে যেটির একটি নতুন চেহারা প্রয়োজন বা আপনি স্ক্র্যাচ থেকে শুরু করছেন, আমরা উভয় ওয়েবসাইট পুনর্নির্মাণ এবং নতুন ওয়েবসাইট ডেভেলপমেন্ট সেবা প্রদান করি। আমাদের দল আপনার লক্ষ্য এবং পছন্দগুলি বোঝার জন্য আপনার সাথে ঘনিষ্ঠভাবে কাজ করে, নিশ্চিত করে যে শেষ ফলাফলটি আপনার ব্র্যান্ড পরিচয় এবং ব্যবসায়িক উদ্দেশ্যগুলির সাথে পুরোপুরি সামঞ্জস্যপূর্ণ কিনা। আমাদের বিশেষজ্ঞ ওয়েব ডেভেলপমেন্ট টিম নিশ্চিত করে যে আপনার সাইটটি দৃশ্যত আকর্ষণীয়ই নয় বরং কর্মক্ষমতা এবং কার্যকারিতার জন্যও অপটিমাইজড।',
 
         // ---------- Footer ----------
-        'footer_about_title': 'sSBC সম্পর্কে',
+        'footer_about_title': 'Zohatec সম্পর্কে',
         'footer_about_text': 'আমরা একটি শীর্ষস্থানীয় ডিজিটাল মার্কেটিং এজেন্সি যা ব্যবসার জন্য প্রভাবশালী অনলাইন উপস্থিতি তৈরিতে বিশেষজ্ঞ। আমাদের বিশেষজ্ঞ দল ফলাফল-চালিত সমাধান সরবরাহ করে।',
         'footer_quick_links': 'দ্রুত লিঙ্ক',
         'footer_our_services': 'আমাদের সেবাসমূহ',
@@ -319,10 +319,10 @@ const translations = {
         'footer_contact_title': 'যোগাযোগ করুন',
         'footer_address': 'sSBC পয়েন্ট, সমসাদিপুর, কাটাখালী, রাজশাহী, বাংলাদেশ।',
         'footer_phone': '+৮৮০ ১৭১৯ ৫৫০ ৭০০',
-        'footer_email': 'info@ssbc.com',
+        'footer_email': 'info@zohatec.com',
         'footer_hours': 'রবি-বৃহঃ: সকাল ৯:০০ - সন্ধ্যা ৬:০০',
         'footer_follow': 'অনুসরণ করুন',
-        'footer_copyright': '© ২০২৬ sSBC মার্কেটিং এজেন্সি। সর্বস্বত্ব সংরক্ষিত।',
+        'footer_copyright': '© ২০২৬ Zohatec মার্কেটিং এজেন্সি। সর্বস্বত্ব সংরক্ষিত।',
         'footer_privacy': 'গোপনীয়তা নীতি',
         'footer_terms': 'শর্তাবলী',
         'footer_cookie': 'কুকি নীতি',
@@ -341,7 +341,7 @@ const translations = {
         'article_not_found_msg': 'আপনি যে নিবন্ধটি খুঁজছেন তা বিদ্যমান নেই বা সরানো হয়েছে।',
         'back_to_home': 'হোমপেজে ফিরে যান',
         'share_this': 'এই নিবন্ধটি শেয়ার করুন:',
-        'find_us': 'আমাদের খুঁজুন',   // <--- add this line
+        'find_us': 'আমাদেরকে খুঁজুন',   // <--- add this line
     }
 };
 
@@ -375,7 +375,7 @@ function translatePage(lang) {
 
     // Update language toggle button text
     const toggle = document.getElementById('lang-toggle');
-    if (toggle) toggle.textContent = lang === 'en' ? 'EN' : 'BN';
+    if (toggle) toggle.textContent = lang === 'en' ? 'Eng' : 'Beng';
 
     localStorage.setItem('ssbc_lang', lang);
     currentLang = lang;
