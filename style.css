@@ -353,7 +353,7 @@ svg {
     font-size: 17px;
 }
 .banner button{
-  background: #12d923;
+  background: #00FFFF;
   color: #000;
   padding: 8px 25px;
   font-size: 16px;
@@ -361,7 +361,7 @@ svg {
   border-top-right-radius: 0;
 }
 .banner button:hover{
-  background: darkorange;
+  background: #FF652F;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 0;
   transition: 0.5s ease-in-out;
@@ -485,7 +485,7 @@ svg {
 .service-container h2{
   display: inline-block;
   margin: 2rem 0;
-  background: linear-gradient(45deg, #7a140e, #a35c06);
+  background: #122331;
   box-shadow: 0 0 20px 0px rgba(221, 236, 5, 0.3);
   color: #e4f30e;
   padding: 1rem 5rem;
@@ -501,7 +501,7 @@ svg {
   color: #9a0de0;
   padding: 1rem 4rem 4rem 4rem;
   border-radius: 8px;
-  background: linear-gradient(45deg, #000000, #120e62);
+  background: #122331;
   box-shadow: 0 0 20px 0px rgba(234, 234, 16, 0.4);
   text-align: center;
   line-height: 1.4;
@@ -521,7 +521,7 @@ svg {
 .service-item p {
   text-align: left;
   margin-bottom: 1.5rem;
-  color: #fff;
+  color: #00FFFF;
   /* Line clamp for 4 lines */
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -533,7 +533,7 @@ svg {
   background: linear-gradient(45deg, #a35c06, #7a140e );
   padding: 10px 20px;
   border-radius: 5px;
-  color: #0bf407;
+  color: #FFFF00;
   text-decoration: none;
   margin-top: auto;
   align-self: center;
@@ -950,7 +950,7 @@ text-align: center;
 .blog-col button{
   margin-top: 10px;
   padding: 10px 25px;
-  background: #0bf407;
+  background: #FF652F;
   border-radius: 30px;
   font-size: 14px;
   border: none;
@@ -959,7 +959,7 @@ text-align: center;
   font-weight: bold;
 }
 .blog-col button:hover{
-  background: #ffffff;
+  background: green;
   transform: scale(1.05);
 }
 @media (max-width: 768px) {
