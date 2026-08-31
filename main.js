@@ -86,12 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
-
-  // Current year for copyright
-  const yearSpan = document.querySelector('#current-year');
-  if(yearSpan) {
-    yearSpan.textContent = new Date().getFullYear();
-  }
 });
 
 // ============================ Add Read More Buttons (no truncation) ===========================
