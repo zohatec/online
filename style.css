@@ -183,7 +183,7 @@ body{
 .menu-btn__lines::after {
   width: 1.5rem;
   height: 0.1rem;
-  background: gold;
+  background: #00FFFF;
   transition: all 0.5s ease-in-out;
 }
 .menu-btn__lines::before {
@@ -299,20 +299,22 @@ body{
 /* ======================= HERO Section ========================= */
 .hero-typing-wrapper{
   display: flex;
+  align-items: center;
   gap: 1vw;
   background: black;
+  padding-left: 6vw;
 }
 .hero-typing-1{
-  display: flex;
-  justify-content: end;
-  width: 28%;
+  flex: 0 0 auto;
+  white-space: nowrap;
   background: black;
   color: yellow;
   padding: 4vw 0;
   font-size: 5vw;
 }
 .hero-typing-2{
-  width: 72%;
+  flex: 1 1 auto;
+  min-width: 0;
   background: black;
   color: aqua;
   padding: 4vw 0;
