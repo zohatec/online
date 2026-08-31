@@ -41,21 +41,19 @@ var typed = new Typed(".typing",{
   backSpeed: 50,
   loop: true
   });
-
 // ============================ FAQ Section ===========================
-let li = document.querySelectorAll(".faq-text li");
-for (var i = 0; i < li.length; i++) {
-  li[i].addEventListener("click", (e)=>{
-    let clickedLi;
-    if(e.target.classList.contains("question-arrow")){
-      clickedLi = e.target.parentElement;
-    }else{
-      clickedLi = e.target.parentElement.parentElement;
+const faqItems = document.querySelectorAll(".faq-text li");
+faqItems.forEach((item) => {
+  item.addEventListener("click", (e) => {
+    const clickedLi = e.target.closest("li");
+    if (!clickedLi) return;
+    const isOpen = clickedLi.classList.contains("showAnswer");
+    faqItems.forEach((li) => li.classList.remove("showAnswer"));
+    if (!isOpen) {
+      clickedLi.classList.add("showAnswer");
     }
-   clickedLi.classList.toggle("showAnswer");
   });
-};
-
+});
 // ============================ CTA Button Animation ===========================
 document.addEventListener('DOMContentLoaded', function() {
   const ctaButtons = document.querySelectorAll('.cta-btn');
