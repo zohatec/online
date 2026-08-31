@@ -138,6 +138,7 @@ const translations = {
 
         // ---------- Footer ----------
         'footer_about_title': 'About Zohatec',
+        'footer_brand_name': 'Zohatec Marketing Agency',
         'footer_about_text': 'We are a premier digital marketing agency specializing in creating impactful online presence for businesses. Our team of experts delivers results-driven solutions.',
         'footer_quick_links': 'Quick Links',
         'footer_our_services': 'Our Services',
@@ -310,6 +311,7 @@ const translations = {
 
         // ---------- Footer ----------
         'footer_about_title': 'Zohatec সম্পর্কে',
+        'footer_brand_name': 'Zohatec Marketing Agency',
         'footer_about_text': 'আমরা একটি শীর্ষস্থানীয় ডিজিটাল মার্কেটিং এজেন্সি যা ব্যবসার জন্য প্রভাবশালী অনলাইন উপস্থিতি তৈরিতে বিশেষজ্ঞ। আমাদের বিশেষজ্ঞ দল ফলাফল-চালিত সমাধান সরবরাহ করে।',
         'footer_quick_links': 'দ্রুত লিঙ্ক',
         'footer_our_services': 'আমাদের সেবাসমূহ',
